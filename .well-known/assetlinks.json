@@ -1,0 +1,9 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.gecw_lakx",
+      "sha256_cert_fingerprints": ["6C:0F:58:0F:36:E4:0F:07:20:F5:70:F8:92:C9:09:AF:38:01:76:6F:CA:D2:E1:C5:B4:C2:75:EA:62:51:77:25"]
+    }
+  }]
+  

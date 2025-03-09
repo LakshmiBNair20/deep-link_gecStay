@@ -1,0 +1,55 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        // Function to get query parameters from the URL
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        // Get the hostelId from the URL
+        const hostelId = getQueryParam('hostelId');
+
+        // Function to handle redirection
+        function redirectToApp() {
+            if (hostelId) {
+                // Construct the deep link
+                const deepLink = `flutterDeepLink://gecstay/hostel?hostelId=${hostelId}`;
+
+                // Try to open the deep link
+                window.location.href = deepLink;
+
+                // Fallback if the app is not installed
+                setTimeout(function() {
+                    document.body.innerHTML = `
+                        <h1>Install the App First</h1>
+                        <p>Please install the GecStay app to continue.</p>
+                    `;
+                }, 500); // Wait 500ms before showing the fallback page
+            } else {
+                // Handle case where hostelId is not provided
+                alert("Invalid link: hostelId is missing.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <p>Click the button below to be redirected to the GecStay app:</p>
+    <button onclick="redirectToApp()">Go to GecStay</button>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>WELCOME TO THE PAGE</H1>
+</body>
+</html>
